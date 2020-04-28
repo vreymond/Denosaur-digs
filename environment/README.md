@@ -35,6 +35,12 @@ The three --allow flag are required.
 ```--allow-read``` authorize the program to read files (.env here).  
 ```--allow-run```authorize the program to run a subprocess like command in terminal.
 
+You can use authorise any access to your app by using the -A flag instead of each --allow flags:
+
+```
+deno -A env-variable.ts
+```
+
 The file ```.env.example``` give the structure of expected environment variables in the .env file. If one or more are empty or missing, the program will throw an error.
 
 You can also find a Makefile to simplify the execution of the program:
