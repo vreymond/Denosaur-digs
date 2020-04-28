@@ -19,7 +19,7 @@ cd hello-world/
 
 And then you can run the following command to start the hello-world program:
 
-```javascript
+```
 // typescript version
 deno hello-world.ts
 
@@ -42,7 +42,7 @@ error: Uncaught PermissionDenied: network access to "127.0.0.1:8000", run again 
 
 A PermissionDenied error will be emitted by Deno. Basically, Deno does not allow programs to access the network. We need to give him the permission to do so by adding the ```--all-net``` flag in the command. Lets try again:
 
-```javascript
+```
 // typescript version
 deno --allow-net hello-world.ts
 
@@ -52,7 +52,7 @@ deno --allow-net hello-world.js
 
 Deno will compile the file and run it. You can now see in the terminal:
 
-```javascript
+```
 // typescript version
 Hello world in terminal (typescript)!
 
