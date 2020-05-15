@@ -43,23 +43,6 @@ deno -A env-variable.ts
 
 The file ```.env.example``` give the structure of expected environment variables in the .env file. If one or more are empty or missing, the program will throw an error.
 
-You can also find a Makefile to simplify the execution of the program:
-
-```bash
-make run
-
-> I am an environment variable
-> 04/28/20-17:54:18
-```
-
-
-
-
-
-
- 
-
-
 ## Contributor
 |<a href="https://github.com/vreymond"><img alt="Valentin Reymond" src="https://avatars2.githubusercontent.com/u/25683049?s=460&u=2601a55abad686c7bf9176391995a1e4cb73801f&v=4" width=100></a>|
 |---|
